@@ -1,0 +1,11 @@
+{
+  "name": "pm-skills-guide",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "render:diagrams": "node tools/render_diagrams.mjs"
+  },
+  "dependencies": {
+    "beautiful-mermaid": "^1.1.3"
+  }
+}

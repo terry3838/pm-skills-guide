@@ -1,0 +1,146 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 722.7239999999999 856.0999999999999" width="722.7239999999999" height="856.0999999999999" style="--bg:#ffffff;--fg:#1f2328;--line:#d1d9e0;--accent:#0969da;--muted:#59636e">
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;display=swap');
+  text { font-family: 'Inter', system-ui, sans-serif; }
+  svg {
+    /* Derived from --bg and --fg (overridable via --line, --accent, etc.) */
+    --_text:          var(--fg);
+    --_text-sec:      var(--muted, color-mix(in srgb, var(--fg) 60%, var(--bg)));
+    --_text-muted:    var(--muted, color-mix(in srgb, var(--fg) 40%, var(--bg)));
+    --_text-faint:    color-mix(in srgb, var(--fg) 25%, var(--bg));
+    --_line:          var(--line, color-mix(in srgb, var(--fg) 50%, var(--bg)));
+    --_arrow:         var(--accent, color-mix(in srgb, var(--fg) 85%, var(--bg)));
+    --_node-fill:     var(--surface, color-mix(in srgb, var(--fg) 3%, var(--bg)));
+    --_node-stroke:   var(--border, color-mix(in srgb, var(--fg) 20%, var(--bg)));
+    --_group-fill:    var(--bg);
+    --_group-hdr:     color-mix(in srgb, var(--fg) 5%, var(--bg));
+    --_inner-stroke:  color-mix(in srgb, var(--fg) 12%, var(--bg));
+    --_key-badge:     color-mix(in srgb, var(--fg) 10%, var(--bg));
+  }
+</style>
+<defs>
+  <marker id="arrowhead" markerWidth="8" markerHeight="5" refX="7" refY="2.5" orient="auto">
+    <polygon points="0 0, 8 2.5, 0 5" fill="var(--_arrow)" stroke="var(--_arrow)" stroke-width="0.75" stroke-linejoin="round" />
+  </marker>
+  <marker id="arrowhead-start" markerWidth="8" markerHeight="5" refX="1" refY="2.5" orient="auto-start-reverse">
+    <polygon points="8 0, 0 2.5, 8 5" fill="var(--_arrow)" stroke="var(--_arrow)" stroke-width="0.75" stroke-linejoin="round" />
+  </marker>
+</defs>
+<g class="subgraph" data-id="___12" data-label="초급[&quot;📗 초급 경로 (1-2주)&quot;]">
+  <rect x="468.725" y="40" width="213.99899999999997" height="776.0999999999999" rx="0" ry="0" fill="var(--_group-fill)" stroke="var(--_node-stroke)" stroke-width="1" />
+  <rect x="468.725" y="40" width="213.99899999999997" height="28" rx="0" ry="0" fill="var(--_group-hdr)" stroke="var(--_node-stroke)" stroke-width="1" />
+  <text x="480.725" y="54" font-size="12" font-weight="600" fill="var(--_text-sec)" dy="4.199999999999999">초급[&quot;📗 초급 경로 (1-2주)&quot;]</text>
+</g>
+<g class="subgraph" data-id="___34" data-label="중급[&quot;📘 중급 경로 (3-4주)&quot;]">
+  <rect x="227.316" y="40" width="221.409" height="521.4" rx="0" ry="0" fill="var(--_group-fill)" stroke="var(--_node-stroke)" stroke-width="1" />
+  <rect x="227.316" y="40" width="221.409" height="28" rx="0" ry="0" fill="var(--_group-hdr)" stroke="var(--_node-stroke)" stroke-width="1" />
+  <text x="239.316" y="54" font-size="12" font-weight="600" fill="var(--_text-sec)" dy="4.199999999999999">중급[&quot;📘 중급 경로 (3-4주)&quot;]</text>
+</g>
+<g class="subgraph" data-id="___5" data-label="고급[&quot;📕 고급 경로 (5주+)&quot;]">
+  <rect x="40" y="40" width="167.316" height="521.4" rx="0" ry="0" fill="var(--_group-fill)" stroke="var(--_node-stroke)" stroke-width="1" />
+  <rect x="40" y="40" width="167.316" height="28" rx="0" ry="0" fill="var(--_group-hdr)" stroke="var(--_node-stroke)" stroke-width="1" />
+  <text x="52" y="54" font-size="12" font-weight="600" fill="var(--_text-sec)" dy="4.199999999999999">고급[&quot;📕 고급 경로 (5주+)&quot;]</text>
+</g>
+<polyline class="edge" data-from="S1" data-to="S2" data-style="solid" data-arrow-start="false" data-arrow-end="true" points="574.9835,120.9 574.9835,168.9" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="S2" data-to="S3" data-style="solid" data-arrow-start="false" data-arrow-end="true" points="571.83425,205.8 571.83425,253.8" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="S3" data-to="S4" data-style="solid" data-arrow-start="false" data-arrow-end="true" points="572.57525,290.70000000000005 572.57525,338.70000000000005" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="S4" data-to="S5" data-style="solid" data-arrow-start="false" data-arrow-end="true" points="576.4655,375.6 576.4655,423.6" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="S5" data-to="S6" data-style="solid" data-arrow-start="false" data-arrow-end="true" points="576.4655,460.5 576.4655,508.5" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="S6" data-to="S7" data-style="solid" data-arrow-start="false" data-arrow-end="true" points="575.7245,545.4 575.7245,593.4" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="S7" data-to="S8" data-style="solid" data-arrow-start="false" data-arrow-end="true" points="578.87375,630.3 578.87375,678.3" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="S8" data-to="S9" data-style="solid" data-arrow-start="false" data-arrow-end="true" points="578.87375,715.1999999999999 578.87375,763.1999999999999" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="M1" data-to="M2" data-style="solid" data-arrow-start="false" data-arrow-end="true" points="348.765,120.9 348.765,168.9" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="M2" data-to="M3" data-style="solid" data-arrow-start="false" data-arrow-end="true" points="338.02049999999997,205.8 338.02049999999997,253.8" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="M3" data-to="M4" data-style="solid" data-arrow-start="false" data-arrow-end="true" points="338.76149999999996,290.70000000000005 338.76149999999996,338.70000000000005" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="M4" data-to="M5" data-style="solid" data-arrow-start="false" data-arrow-end="true" points="328.01699999999994,375.6 328.01699999999994,423.6" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="M5" data-to="M6" data-style="solid" data-arrow-start="false" data-arrow-end="true" points="326.53499999999997,460.5 326.53499999999997,508.5" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="A1" data-to="A2" data-style="solid" data-arrow-start="false" data-arrow-end="true" points="124.399,120.9 124.399,168.9" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="A2" data-to="A3" data-style="solid" data-arrow-start="false" data-arrow-end="true" points="123.658,205.8 123.658,253.8" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="A3" data-to="A4" data-style="solid" data-arrow-start="false" data-arrow-end="true" points="122.917,290.70000000000005 122.917,338.70000000000005" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="A4" data-to="A5" data-style="solid" data-arrow-start="false" data-arrow-end="true" points="122.917,375.6 122.917,423.6" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="A5" data-to="A6" data-style="solid" data-arrow-start="false" data-arrow-end="true" points="123.658,460.5 123.658,508.5" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<g class="node" data-id="S1" data-label="product-strategy" data-shape="rectangle">
+  <rect x="505.473" y="84" width="140.503" height="36.900000000000006" rx="0" ry="0" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
+  <text x="575.7245" y="102.45" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)" dy="4.55">product-strategy</text>
+</g>
+<g class="node" data-id="S2" data-label="market-segments" data-shape="rectangle">
+  <rect x="503.991" y="168.9" width="141.985" height="36.900000000000006" rx="0" ry="0" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
+  <text x="574.9835" y="187.35000000000002" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)" dy="4.55">market-segments</text>
+</g>
+<g class="node" data-id="S3" data-label="beachhead-segment" data-shape="rectangle">
+  <rect x="491.94975" y="253.8" width="161.25099999999998" height="36.900000000000006" rx="0" ry="0" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
+  <text x="572.57525" y="272.25" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)" dy="4.55">beachhead-segment</text>
+</g>
+<g class="node" data-id="S4" data-label="competitor-analysis" data-shape="rectangle">
+  <rect x="497.322" y="338.70000000000005" width="156.805" height="36.900000000000006" rx="0" ry="0" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
+  <text x="575.7245" y="357.15000000000003" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)" dy="4.55">competitor-analysis</text>
+</g>
+<g class="node" data-id="S5" data-label="value-proposition" data-shape="rectangle">
+  <rect x="503.991" y="423.6" width="144.949" height="36.900000000000006" rx="0" ry="0" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
+  <text x="576.4655" y="442.05" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)" dy="4.55">value-proposition</text>
+</g>
+<g class="node" data-id="S6" data-label="north-star-metric" data-shape="rectangle">
+  <rect x="505.8435" y="508.5" width="139.762" height="36.900000000000006" rx="0" ry="0" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
+  <text x="575.7245" y="526.95" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)" dy="4.55">north-star-metric</text>
+</g>
+<g class="node" data-id="S7" data-label="pricing-strategy" data-shape="rectangle">
+  <rect x="507.696" y="593.4" width="136.05700000000002" height="36.900000000000006" rx="0" ry="0" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
+  <text x="575.7245" y="611.85" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)" dy="4.55">pricing-strategy</text>
+</g>
+<g class="node" data-id="S8" data-label="customer-journey-map" data-shape="rectangle">
+  <rect x="491.94975" y="678.3" width="173.84799999999998" height="36.900000000000006" rx="0" ry="0" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
+  <text x="578.87375" y="696.75" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)" dy="4.55">customer-journey-map</text>
+</g>
+<g class="node" data-id="S9" data-label="brainstorm-experiments" data-shape="rectangle">
+  <rect x="484.725" y="763.1999999999999" width="181.99899999999997" height="36.900000000000006" rx="0" ry="0" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
+  <text x="575.7245" y="781.65" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)" dy="4.55">brainstorm-experiments</text>
+</g>
+<g class="node" data-id="M1" data-label="prioritization-frameworks" data-shape="rectangle">
+  <rect x="254.0605" y="84" width="189.409" height="36.900000000000006" rx="0" ry="0" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
+  <text x="348.765" y="102.45" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)" dy="4.55">prioritization-frameworks</text>
+</g>
+<g class="node" data-id="M2" data-label="brainstorm-okrs" data-shape="rectangle">
+  <rect x="269.251" y="168.9" width="137.539" height="36.900000000000006" rx="0" ry="0" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
+  <text x="338.02049999999997" y="187.35000000000002" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)" dy="4.55">brainstorm-okrs</text>
+</g>
+<g class="node" data-id="M3" data-label="gtm-strategy" data-shape="rectangle">
+  <rect x="281.10699999999997" y="253.8" width="113.827" height="36.900000000000006" rx="0" ry="0" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
+  <text x="338.02049999999997" y="272.25" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)" dy="4.55">gtm-strategy</text>
+</g>
+<g class="node" data-id="M4" data-label="pre-mortem" data-shape="rectangle">
+  <rect x="284.812" y="338.70000000000005" width="107.899" height="36.900000000000006" rx="0" ry="0" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
+  <text x="338.7615" y="357.15000000000003" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)" dy="4.55">pre-mortem</text>
+</g>
+<g class="node" data-id="M5" data-label="outcome-roadmap" data-shape="rectangle">
+  <rect x="254.0605" y="423.6" width="146.43099999999998" height="36.900000000000006" rx="0" ry="0" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
+  <text x="327.27599999999995" y="442.05" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)" dy="4.55">outcome-roadmap</text>
+</g>
+<g class="node" data-id="M6" data-label="create-prd" data-shape="rectangle">
+  <rect x="284.812" y="508.5" width="104.93499999999999" height="36.900000000000006" rx="0" ry="0" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
+  <text x="337.2795" y="526.95" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)" dy="4.55">create-prd</text>
+</g>
+<g class="node" data-id="A1" data-label="growth-loops" data-shape="rectangle">
+  <rect x="65.2625" y="84" width="118.273" height="36.900000000000006" rx="0" ry="0" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
+  <text x="124.399" y="102.45" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)" dy="4.55">growth-loops</text>
+</g>
+<g class="node" data-id="A2" data-label="cohort-analysis" data-shape="rectangle">
+  <rect x="56.37050000000001" y="168.9" width="134.575" height="36.900000000000006" rx="0" ry="0" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
+  <text x="123.658" y="187.35000000000002" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)" dy="4.55">cohort-analysis</text>
+</g>
+<g class="node" data-id="A3" data-label="ab-test-analysis" data-shape="rectangle">
+  <rect x="56" y="253.8" width="135.316" height="36.900000000000006" rx="0" ry="0" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
+  <text x="123.658" y="272.25" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)" dy="4.55">ab-test-analysis</text>
+</g>
+<g class="node" data-id="A4" data-label="lean-canvas" data-shape="rectangle">
+  <rect x="65.2625" y="338.70000000000005" width="115.30900000000001" height="36.900000000000006" rx="0" ry="0" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
+  <text x="122.917" y="357.15000000000003" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)" dy="4.55">lean-canvas</text>
+</g>
+<g class="node" data-id="A5" data-label="business-model" data-shape="rectangle">
+  <rect x="56.37050000000001" y="423.6" width="134.575" height="36.900000000000006" rx="0" ry="0" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
+  <text x="123.658" y="442.05" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)" dy="4.55">business-model</text>
+</g>
+<g class="node" data-id="A6" data-label="ansoff-matrix" data-shape="rectangle">
+  <rect x="65.2625" y="508.5" width="116.791" height="36.900000000000006" rx="0" ry="0" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
+  <text x="123.658" y="526.95" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)" dy="4.55">ansoff-matrix</text>
+</g>
+</svg>

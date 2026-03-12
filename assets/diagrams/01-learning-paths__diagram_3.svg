@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1223.039 133.8" width="1223.039" height="133.8" style="--bg:#ffffff;--fg:#1f2328;--line:#d1d9e0;--accent:#0969da;--muted:#59636e">
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;display=swap');
+  text { font-family: 'Inter', system-ui, sans-serif; }
+  svg {
+    /* Derived from --bg and --fg (overridable via --line, --accent, etc.) */
+    --_text:          var(--fg);
+    --_text-sec:      var(--muted, color-mix(in srgb, var(--fg) 60%, var(--bg)));
+    --_text-muted:    var(--muted, color-mix(in srgb, var(--fg) 40%, var(--bg)));
+    --_text-faint:    color-mix(in srgb, var(--fg) 25%, var(--bg));
+    --_line:          var(--line, color-mix(in srgb, var(--fg) 50%, var(--bg)));
+    --_arrow:         var(--accent, color-mix(in srgb, var(--fg) 85%, var(--bg)));
+    --_node-fill:     var(--surface, color-mix(in srgb, var(--fg) 3%, var(--bg)));
+    --_node-stroke:   var(--border, color-mix(in srgb, var(--fg) 20%, var(--bg)));
+    --_group-fill:    var(--bg);
+    --_group-hdr:     color-mix(in srgb, var(--fg) 5%, var(--bg));
+    --_inner-stroke:  color-mix(in srgb, var(--fg) 12%, var(--bg));
+    --_key-badge:     color-mix(in srgb, var(--fg) 10%, var(--bg));
+  }
+</style>
+<defs>
+  <marker id="arrowhead" markerWidth="8" markerHeight="5" refX="7" refY="2.5" orient="auto">
+    <polygon points="0 0, 8 2.5, 0 5" fill="var(--_arrow)" stroke="var(--_arrow)" stroke-width="0.75" stroke-linejoin="round" />
+  </marker>
+  <marker id="arrowhead-start" markerWidth="8" markerHeight="5" refX="1" refY="2.5" orient="auto-start-reverse">
+    <polygon points="8 0, 0 2.5, 8 5" fill="var(--_arrow)" stroke="var(--_arrow)" stroke-width="0.75" stroke-linejoin="round" />
+  </marker>
+</defs>
+<polyline class="edge" data-from="M1" data-to="M2" data-style="solid" data-arrow-start="false" data-arrow-end="true" points="242.00599999999997,66.9 290.006,66.9" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="M2" data-to="M3" data-style="solid" data-arrow-start="false" data-arrow-end="true" points="449.775,66.9 497.775,66.9" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="M3" data-to="M4" data-style="solid" data-arrow-start="false" data-arrow-end="true" points="628.645,66.9 676.645,66.9" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="M4" data-to="M5" data-style="solid" data-arrow-start="false" data-arrow-end="true" points="801.587,66.9 849.587,66.9" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="M5" data-to="M6" data-style="solid" data-arrow-start="false" data-arrow-end="true" points="1013.0609999999999,66.9 1061.0610000000001,66.9" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<g class="node" data-id="M1" data-label="1️⃣ prioritization-frameworks
+전략 기반 우선순위" data-shape="rectangle">
+  <rect x="40" y="40" width="202.00599999999997" height="53.800000000000004" rx="0" ry="0" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
+  <text x="141.003" y="66.9" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)"><tspan x="141.003" dy="-3.9000000000000012">1️⃣ prioritization-frameworks</tspan><tspan x="141.003" dy="16.900000000000002">전략 기반 우선순위</tspan></text>
+</g>
+<g class="node" data-id="M2" data-label="2️⃣ brainstorm-okrs
+OKR 브레인스토밍" data-shape="rectangle">
+  <rect x="290.006" y="40" width="159.769" height="53.800000000000004" rx="0" ry="0" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
+  <text x="369.8905" y="66.9" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)"><tspan x="369.8905" dy="-3.9000000000000012">2️⃣ brainstorm-okrs</tspan><tspan x="369.8905" dy="16.900000000000002">OKR 브레인스토밍</tspan></text>
+</g>
+<g class="node" data-id="M3" data-label="3️⃣ gtm-strategy
+GTM 전략" data-shape="rectangle">
+  <rect x="497.775" y="40" width="130.87" height="53.800000000000004" rx="0" ry="0" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
+  <text x="563.21" y="66.9" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)"><tspan x="563.21" dy="-3.9000000000000012">3️⃣ gtm-strategy</tspan><tspan x="563.21" dy="16.900000000000002">GTM 전략</tspan></text>
+</g>
+<g class="node" data-id="M4" data-label="4️⃣ pre-mortem
+사전 부검" data-shape="rectangle">
+  <rect x="676.645" y="40" width="124.942" height="53.800000000000004" rx="0" ry="0" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
+  <text x="739.116" y="66.9" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)"><tspan x="739.116" dy="-3.9000000000000012">4️⃣ pre-mortem</tspan><tspan x="739.116" dy="16.900000000000002">사전 부검</tspan></text>
+</g>
+<g class="node" data-id="M5" data-label="5️⃣ outcome-roadmap
+결과 로드맵" data-shape="rectangle">
+  <rect x="849.587" y="40" width="163.474" height="53.800000000000004" rx="0" ry="0" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
+  <text x="931.324" y="66.9" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)"><tspan x="931.324" dy="-3.9000000000000012">5️⃣ outcome-roadmap</tspan><tspan x="931.324" dy="16.900000000000002">결과 로드맵</tspan></text>
+</g>
+<g class="node" data-id="M6" data-label="6️⃣ create-prd
+PRD 작성" data-shape="rectangle">
+  <rect x="1061.0610000000001" y="40" width="121.978" height="53.800000000000004" rx="0" ry="0" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
+  <text x="1122.0500000000002" y="66.9" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)"><tspan x="1122.0500000000002" dy="-3.9000000000000012">6️⃣ create-prd</tspan><tspan x="1122.0500000000002" dy="16.900000000000002">PRD 작성</tspan></text>
+</g>
+</svg>

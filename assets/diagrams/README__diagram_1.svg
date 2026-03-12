@@ -1,0 +1,97 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 436.3792833333333 1825.6000000000001" width="436.3792833333333" height="1825.6000000000001" style="--bg:#ffffff;--fg:#1f2328;--line:#d1d9e0;--accent:#0969da;--muted:#59636e">
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;display=swap');
+  text { font-family: 'Inter', system-ui, sans-serif; }
+  svg {
+    /* Derived from --bg and --fg (overridable via --line, --accent, etc.) */
+    --_text:          var(--fg);
+    --_text-sec:      var(--muted, color-mix(in srgb, var(--fg) 60%, var(--bg)));
+    --_text-muted:    var(--muted, color-mix(in srgb, var(--fg) 40%, var(--bg)));
+    --_text-faint:    color-mix(in srgb, var(--fg) 25%, var(--bg));
+    --_line:          var(--line, color-mix(in srgb, var(--fg) 50%, var(--bg)));
+    --_arrow:         var(--accent, color-mix(in srgb, var(--fg) 85%, var(--bg)));
+    --_node-fill:     var(--surface, color-mix(in srgb, var(--fg) 3%, var(--bg)));
+    --_node-stroke:   var(--border, color-mix(in srgb, var(--fg) 20%, var(--bg)));
+    --_group-fill:    var(--bg);
+    --_group-hdr:     color-mix(in srgb, var(--fg) 5%, var(--bg));
+    --_inner-stroke:  color-mix(in srgb, var(--fg) 12%, var(--bg));
+    --_key-badge:     color-mix(in srgb, var(--fg) 10%, var(--bg));
+  }
+</style>
+<defs>
+  <marker id="arrowhead" markerWidth="8" markerHeight="5" refX="7" refY="2.5" orient="auto">
+    <polygon points="0 0, 8 2.5, 0 5" fill="var(--_arrow)" stroke="var(--_arrow)" stroke-width="0.75" stroke-linejoin="round" />
+  </marker>
+  <marker id="arrowhead-start" markerWidth="8" markerHeight="5" refX="1" refY="2.5" orient="auto-start-reverse">
+    <polygon points="8 0, 0 2.5, 8 5" fill="var(--_arrow)" stroke="var(--_arrow)" stroke-width="0.75" stroke-linejoin="round" />
+  </marker>
+</defs>
+<g class="subgraph" data-id="__" data-label="전략[&quot;🎯 전략 수립&quot;]">
+  <rect x="142.41128333333336" y="40" width="253.968" height="215.60000000000002" rx="0" ry="0" fill="var(--_group-fill)" stroke="var(--_node-stroke)" stroke-width="1" />
+  <rect x="142.41128333333336" y="40" width="253.968" height="28" rx="0" ry="0" fill="var(--_group-hdr)" stroke="var(--_node-stroke)" stroke-width="1" />
+  <text x="154.41128333333336" y="54" font-size="12" font-weight="600" fill="var(--_text-sec)" dy="4.199999999999999">전략[&quot;🎯 전략 수립&quot;]</text>
+</g>
+<g class="subgraph" data-id="__" data-label="전략[&quot;🎯 전략 수립&quot;]">
+  <rect x="73.01861666666667" y="315.6" width="193.99200000000002" height="215.60000000000002" rx="0" ry="0" fill="var(--_group-fill)" stroke="var(--_node-stroke)" stroke-width="1" />
+  <rect x="73.01861666666667" y="315.6" width="193.99200000000002" height="28" rx="0" ry="0" fill="var(--_group-hdr)" stroke="var(--_node-stroke)" stroke-width="1" />
+  <text x="85.01861666666667" y="329.6" font-size="12" font-weight="600" fill="var(--_text-sec)" dy="4.199999999999999">전략[&quot;🎯 전략 수립&quot;]</text>
+</g>
+<g class="subgraph" data-id="_" data-label="실행[&quot;⚡ 실행&quot;]">
+  <rect x="148.15533333333335" y="591.2" width="233.60583333333332" height="215.60000000000002" rx="0" ry="0" fill="var(--_group-fill)" stroke="var(--_node-stroke)" stroke-width="1" />
+  <rect x="148.15533333333335" y="591.2" width="233.60583333333332" height="28" rx="0" ry="0" fill="var(--_group-hdr)" stroke="var(--_node-stroke)" stroke-width="1" />
+  <text x="160.15533333333335" y="605.2" font-size="12" font-weight="600" fill="var(--_text-sec)" dy="4.199999999999999">실행[&quot;⚡ 실행&quot;]</text>
+</g>
+<g class="subgraph" data-id="_" data-label="실행[&quot;⚡ 실행&quot;]">
+  <rect x="40" y="866.8000000000001" width="315.071" height="113.80000000000001" rx="0" ry="0" fill="var(--_group-fill)" stroke="var(--_node-stroke)" stroke-width="1" />
+  <rect x="40" y="866.8000000000001" width="315.071" height="28" rx="0" ry="0" fill="var(--_group-hdr)" stroke="var(--_node-stroke)" stroke-width="1" />
+  <text x="52" y="880.8000000000001" font-size="12" font-weight="600" fill="var(--_text-sec)" dy="4.199999999999999">실행[&quot;⚡ 실행&quot;]</text>
+</g>
+<polyline class="edge" data-from="PD" data-to="EX" data-style="solid" data-arrow-start="false" data-arrow-end="true" points="294.1962833333333,239.60000000000002 294.1962833333333,575.2 224.03283333333334,575.2 224.03283333333334,635.2" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="GTM" data-to="EX" data-style="solid" data-arrow-start="false" data-arrow-end="true" points="170.01461666666665,515.2 170.01461666666665,575.2 224.03283333333334,575.2 224.03283333333334,635.2" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="PS" data-to="PD" data-style="solid" data-arrow-start="false" data-arrow-end="true" points="238.66628333333335,137.8 238.66628333333335,161.8 294.1962833333333,161.8 294.1962833333333,185.8" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="PS" data-to="MR" data-style="solid" data-arrow-start="false" data-arrow-end="true" points="238.66628333333335,137.8 238.66628333333335,161.8 170.01461666666668,161.8 170.01461666666668,359.6" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="MR" data-to="GTM" data-style="solid" data-arrow-start="false" data-arrow-end="true" points="197.01328333333333,413.40000000000003 197.01328333333333,425.40000000000003 192.44378333333336,425.40000000000003 192.44378333333336,461.40000000000003" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="EX" data-to="MG" data-style="solid" data-arrow-start="false" data-arrow-end="true" points="224.03283333333334,689 224.03283333333334,713 284.0241666666667,713 284.0241666666667,737" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="EX" data-to="DA" data-style="solid" data-arrow-start="false" data-arrow-end="true" points="224.03283333333334,689 224.03283333333334,713 266.967,713 266.967,910.8000000000001" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="MG" data-to="DA" data-style="solid" data-arrow-start="false" data-arrow-end="true" points="351.26983333333334,1657.6000000000001 351.26983333333334,1715.6000000000001 350.2294,1715.6000000000001 350.22940000000006,1777.6000000000001" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<g class="node" data-id="PS" data-label="pm-product-strategy
+제품 전략 12개" data-shape="rectangle">
+  <rect x="158.41128333333336" y="84" width="160.51" height="53.800000000000004" rx="0" ry="0" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
+  <text x="238.66628333333335" y="110.9" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)"><tspan x="238.66628333333335" dy="-3.9000000000000012">pm-product-strategy</tspan><tspan x="238.66628333333335" dy="16.900000000000002">제품 전략 12개</tspan></text>
+</g>
+<g class="node" data-id="PD" data-label="pm-product-discovery
+제품 발견 13개" data-shape="rectangle">
+  <rect x="208.01328333333336" y="185.8" width="172.36599999999999" height="53.800000000000004" rx="0" ry="0" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
+  <text x="294.1962833333333" y="212.70000000000002" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)"><tspan x="294.1962833333333" dy="-3.9000000000000012">pm-product-discovery</tspan><tspan x="294.1962833333333" dy="16.900000000000002">제품 발견 13개</tspan></text>
+</g>
+<g class="node" data-id="MR" data-label="pm-market-research
+시장 조사 7개" data-shape="rectangle">
+  <rect x="89.01861666666667" y="359.6" width="161.99200000000002" height="53.800000000000004" rx="0" ry="0" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
+  <text x="170.01461666666668" y="386.5" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)"><tspan x="170.01461666666668" dy="-3.9000000000000012">pm-market-research</tspan><tspan x="170.01461666666668" dy="16.900000000000002">시장 조사 7개</tspan></text>
+</g>
+<g class="node" data-id="GTM" data-label="pm-go-to-market
+시장 진입 6개" data-shape="rectangle">
+  <rect x="102.72711666666666" y="461.40000000000003" width="134.57500000000002" height="53.800000000000004" rx="0" ry="0" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
+  <text x="170.01461666666665" y="488.3" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)"><tspan x="170.01461666666665" dy="-3.9000000000000012">pm-go-to-market</tspan><tspan x="170.01461666666665" dy="16.900000000000002">시장 진입 6개</tspan></text>
+</g>
+<g class="node" data-id="EX" data-label="pm-execution
+실행 15개" data-shape="rectangle">
+  <rect x="164.15533333333335" y="635.2" width="119.755" height="53.800000000000004" rx="0" ry="0" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
+  <text x="224.03283333333334" y="662.1" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)"><tspan x="224.03283333333334" dy="-3.9000000000000012">pm-execution</tspan><tspan x="224.03283333333334" dy="16.900000000000002">실행 15개</tspan></text>
+</g>
+<g class="node" data-id="MG" data-label="pm-marketing-growth
+마케팅/성장 5개" data-shape="rectangle">
+  <rect x="202.28716666666668" y="737" width="163.474" height="53.800000000000004" rx="0" ry="0" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
+  <text x="284.0241666666667" y="763.9" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)"><tspan x="284.0241666666667" dy="-3.9000000000000012">pm-marketing-growth</tspan><tspan x="284.0241666666667" dy="16.900000000000002">마케팅/성장 5개</tspan></text>
+</g>
+<g class="node" data-id="DA" data-label="pm-data-analytics
+데이터 분석 3개" data-shape="rectangle">
+  <rect x="194.863" y="910.8000000000001" width="144.20800000000003" height="53.800000000000004" rx="0" ry="0" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
+  <text x="266.967" y="937.7" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)"><tspan x="266.967" dy="-3.9000000000000012">pm-data-analytics</tspan><tspan x="266.967" dy="16.900000000000002">데이터 분석 3개</tspan></text>
+</g>
+<g class="node" data-id="TK" data-label="pm-toolkit
+도구함 4개" data-shape="rectangle">
+  <rect x="56" y="910.8000000000001" width="110.863" height="53.800000000000004" rx="0" ry="0" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
+  <text x="111.4315" y="937.7" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)"><tspan x="111.4315" dy="-3.9000000000000012">pm-toolkit</tspan><tspan x="111.4315" dy="16.900000000000002">도구함 4개</tspan></text>
+</g>
+</svg>

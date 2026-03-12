@@ -20,13 +20,7 @@
 
 데이터 분석 스킬은 "데이터 수집 -> 패턴 발견 -> 실험 검증"의 순서로 실행한다.
 
-```mermaid
-flowchart LR
-    A[SQL 쿼리 생성] --> B[코호트 분석]
-    B --> C[A/B 테스트 분석]
-    C --> B
-    A --> C
-```
+![Diagram 1](../assets/diagrams/categories__pm-data-analytics__diagram_1.svg)
 
 1. **SQL 쿼리 생성** (sql-queries) -- 분석에 필요한 데이터를 먼저 꺼낸다. Supabase(PostgreSQL)에서 사용자 행동 데이터를 추출하는 기초 단계다. 다른 두 스킬의 입력 데이터를 만드는 역할을 한다.
 2. **코호트 분석** (cohort-analysis) -- SQL로 추출한 데이터를 시간 축으로 분석한다. 어떤 가입 cohort가 잘 남고 어떤 cohort가 이탈하는지 패턴을 찾는다.

@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1134.119 181.8" width="1134.119" height="181.8" style="--bg:#ffffff;--fg:#1f2328;--line:#d1d9e0;--accent:#0969da;--muted:#59636e">
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;display=swap');
+  text { font-family: 'Inter', system-ui, sans-serif; }
+  svg {
+    /* Derived from --bg and --fg (overridable via --line, --accent, etc.) */
+    --_text:          var(--fg);
+    --_text-sec:      var(--muted, color-mix(in srgb, var(--fg) 60%, var(--bg)));
+    --_text-muted:    var(--muted, color-mix(in srgb, var(--fg) 40%, var(--bg)));
+    --_text-faint:    color-mix(in srgb, var(--fg) 25%, var(--bg));
+    --_line:          var(--line, color-mix(in srgb, var(--fg) 50%, var(--bg)));
+    --_arrow:         var(--accent, color-mix(in srgb, var(--fg) 85%, var(--bg)));
+    --_node-fill:     var(--surface, color-mix(in srgb, var(--fg) 3%, var(--bg)));
+    --_node-stroke:   var(--border, color-mix(in srgb, var(--fg) 20%, var(--bg)));
+    --_group-fill:    var(--bg);
+    --_group-hdr:     color-mix(in srgb, var(--fg) 5%, var(--bg));
+    --_inner-stroke:  color-mix(in srgb, var(--fg) 12%, var(--bg));
+    --_key-badge:     color-mix(in srgb, var(--fg) 10%, var(--bg));
+  }
+</style>
+<defs>
+  <marker id="arrowhead" markerWidth="8" markerHeight="5" refX="7" refY="2.5" orient="auto">
+    <polygon points="0 0, 8 2.5, 0 5" fill="var(--_arrow)" stroke="var(--_arrow)" stroke-width="0.75" stroke-linejoin="round" />
+  </marker>
+  <marker id="arrowhead-start" markerWidth="8" markerHeight="5" refX="1" refY="2.5" orient="auto-start-reverse">
+    <polygon points="8 0, 0 2.5, 8 5" fill="var(--_arrow)" stroke="var(--_arrow)" stroke-width="0.75" stroke-linejoin="round" />
+  </marker>
+</defs>
+<polyline class="edge" data-from="MS" data-to="BH" data-style="solid" data-arrow-start="false" data-arrow-end="true" points="181.985,90.9 229.985,90.9" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="BH" data-to="ICP" data-style="solid" data-arrow-start="false" data-arrow-end="true" points="391.236,90.9 415.236,90.9 415.236,58.45 439.236,58.45" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="ICP" data-to="GS" data-style="solid" data-arrow-start="false" data-arrow-end="true" points="608.6379999999999,58.45 656.6379999999999,58.45" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="GS" data-to="GM" data-style="solid" data-arrow-start="false" data-arrow-end="true" points="770.4649999999999,58.45 818.4649999999999,58.45" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="GM" data-to="GL" data-style="solid" data-arrow-start="false" data-arrow-end="true" points="927.846,58.45 975.846,58.45" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="BH" data-to="CB" data-style="solid" data-arrow-start="false" data-arrow-end="true" points="391.236,90.9 415.236,90.9 415.236,123.35000000000001 439.236,123.35000000000001" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<g class="node" data-id="MS" data-label="market-segments" data-shape="rectangle">
+  <rect x="40" y="72.45" width="141.985" height="36.900000000000006" rx="0" ry="0" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
+  <text x="110.9925" y="90.9" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)" dy="4.55">market-segments</text>
+</g>
+<g class="node" data-id="BH" data-label="beachhead-segment" data-shape="rectangle">
+  <rect x="229.985" y="72.45" width="161.25099999999998" height="36.900000000000006" rx="0" ry="0" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
+  <text x="310.6105" y="90.9" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)" dy="4.55">beachhead-segment</text>
+</g>
+<g class="node" data-id="ICP" data-label="ideal-customer-profile" data-shape="rectangle">
+  <rect x="439.236" y="40" width="169.402" height="36.900000000000006" rx="0" ry="0" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
+  <text x="523.937" y="58.45" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)" dy="4.55">ideal-customer-profile</text>
+</g>
+<g class="node" data-id="GS" data-label="gtm-strategy" data-shape="rectangle">
+  <rect x="656.6379999999999" y="40" width="113.827" height="36.900000000000006" rx="0" ry="0" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
+  <text x="713.5514999999999" y="58.45" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)" dy="4.55">gtm-strategy</text>
+</g>
+<g class="node" data-id="GM" data-label="gtm-motions" data-shape="rectangle">
+  <rect x="818.4649999999999" y="40" width="109.381" height="36.900000000000006" rx="0" ry="0" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
+  <text x="873.1555" y="58.45" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)" dy="4.55">gtm-motions</text>
+</g>
+<g class="node" data-id="GL" data-label="growth-loops" data-shape="rectangle">
+  <rect x="975.846" y="40" width="118.273" height="36.900000000000006" rx="0" ry="0" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
+  <text x="1034.9825" y="58.45" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)" dy="4.55">growth-loops</text>
+</g>
+<g class="node" data-id="CB" data-label="competitive-battlecard" data-shape="rectangle">
+  <rect x="439.236" y="104.9" width="170.14299999999997" height="36.900000000000006" rx="0" ry="0" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
+  <text x="524.3075" y="123.35000000000001" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)" dy="4.55">competitive-battlecard</text>
+</g>
+</svg>

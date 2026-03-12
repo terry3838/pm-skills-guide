@@ -24,19 +24,7 @@
 
 시장 조사 스킬은 "넓은 시각 -> 좁은 초점"의 순서로 실행하는 것이 효과적이다.
 
-```mermaid
-flowchart LR
-    A[시장 세그먼트] --> B[사용자 페르소나]
-    B --> C[경쟁 분석]
-    C --> D[고객 여정 맵]
-    D --> E[시장 규모 추정]
-    E --> F[사용자 세분화]
-    F --> G[감성 분석]
-
-    style A fill:#e8f4f8
-    style F fill:#fff3cd
-    style G fill:#fff3cd
-```
+![Diagram 1](../assets/diagrams/categories__pm-market-research__diagram_1.svg)
 
 > 1-5번(A~E)은 제품 출시 전/초기에 실행하고, 6-7번(F~G)은 사용자 데이터가 쌓인 후에 실행한다.
 
@@ -214,14 +202,7 @@ Sprint 단위 관리가 작업 간격 문제를 해소할 수 있음.
 
 #### 다음 단계
 
-```mermaid
-flowchart LR
-    A[user-personas 완료] --> B[customer-journey-map]
-    A --> C[user-segmentation]
-    B --> D[sql-queries\nData Analytics]
-
-    style A fill:#d4edda
-```
+![Diagram 2](../assets/diagrams/categories__pm-market-research__diagram_2.svg)
 
 - **[customer-journey-map]**: 생성된 페르소나가 SprintX를 발견하고 사용하는 전체 여정을 매핑한다
 - **[user-segmentation]**: 실제 사용자 데이터가 쌓이면 페르소나를 행동 기반으로 검증한다
@@ -386,14 +367,7 @@ AI 실행 기능보다 시각화/대시보드 기능이 더 중요.
 
 #### 다음 단계
 
-```mermaid
-flowchart LR
-    A[market-segments 완료] --> B[user-personas\n각 세그먼트 구체화]
-    A --> C[beachhead-segment\nGo-to-Market]
-    A --> D[market-sizing\n세그먼트 규모 정량화]
-
-    style A fill:#d4edda
-```
+![Diagram 3](../assets/diagrams/categories__pm-market-research__diagram_3.svg)
 
 - **[user-personas]**: 선택한 세그먼트 내에서 구체적인 사용자 프로필을 만든다
 - **[beachhead-segment (Go-to-Market)]**: 식별한 세그먼트 중 1차 타겟을 선택한다
@@ -546,14 +520,7 @@ AI 실행 엔진 완성 시 이 세그먼트에서 가장 강한 반응 예상.
 
 #### 다음 단계
 
-```mermaid
-flowchart LR
-    A[user-segmentation 완료] --> B[sentiment-analysis\n세그먼트별 만족도 측정]
-    A --> C[user-personas\n세그먼트 대표 페르소나]
-    A --> D[cohort-analysis\nData Analytics]
-
-    style A fill:#d4edda
-```
+![Diagram 4](../assets/diagrams/categories__pm-market-research__diagram_4.svg)
 
 - **[sentiment-analysis]**: 각 세그먼트의 만족도를 정량적으로 측정한다
 - **[cohort-analysis (Data Analytics)]**: 세그먼트별 리텐션 추적으로 가치 검증을 수행한다
@@ -700,14 +667,7 @@ Aha Moment 가설: Goal -> Sprint -> Task 계층을 처음 완성하고
 
 #### 다음 단계
 
-```mermaid
-flowchart LR
-    A[customer-journey-map 완료] --> B[sql-queries\nData Analytics\n각 단계 전환율 측정]
-    A --> C[north-star-metric\nMarketing & Growth]
-    B --> D[cohort-analysis\n단계별 리텐션 분석]
-
-    style A fill:#d4edda
-```
+![Diagram 5](../assets/diagrams/categories__pm-market-research__diagram_5.svg)
 
 - **[sql-queries (Data Analytics)]**: 여정 각 단계의 전환율을 쿼리로 측정한다
 - **[north-star-metric (Marketing & Growth)]**: 여정에서 가장 중요한 순간을 핵심 지표로 선정한다
@@ -866,13 +826,7 @@ Year 3 현실적 목표: $500K-1M ARR (Pro 8,000-17,000명)
 
 #### 다음 단계
 
-```mermaid
-flowchart LR
-    A[market-sizing 완료] --> B[beachhead-segment\nGo-to-Market\n최종 타겟 확정]
-    A --> C[gtm-strategy\nGo-to-Market\nSOM 달성 전략]
-
-    style A fill:#d4edda
-```
+![Diagram 6](../assets/diagrams/categories__pm-market-research__diagram_6.svg)
 
 - **[beachhead-segment (Go-to-Market)]**: 시장 규모를 기준으로 Beachhead를 최종 선택한다
 - **[gtm-strategy (Go-to-Market)]**: SOM 달성을 위한 구체적 전략 수립에 활용된다
@@ -1066,14 +1020,7 @@ SprintX Pro $5/월은 경쟁자 대비 저렴. AI 실행 기능 출시 후 $8-10
 
 #### 다음 단계
 
-```mermaid
-flowchart LR
-    A[competitor-analysis 완료] --> B[competitive-battlecard\nGo-to-Market]
-    A --> C[positioning-ideas\nMarketing & Growth]
-    A --> D[market-sizing\n경쟁자 데이터 교차 검증]
-
-    style A fill:#d4edda
-```
+![Diagram 7](../assets/diagrams/categories__pm-market-research__diagram_7.svg)
 
 - **[competitive-battlecard (Go-to-Market)]**: 경쟁 분석을 영업/마케팅용 배틀카드로 전환한다
 - **[positioning-ideas (Marketing & Growth)]**: 차별화 포인트를 포지셔닝 전략으로 발전시킨다
@@ -1299,14 +1246,7 @@ G2 등록 및 리뷰 수집 시작 권고 (사회적 증명 구축).
 
 #### 다음 단계
 
-```mermaid
-flowchart LR
-    A[sentiment-analysis 완료] --> B[cohort-analysis\nData Analytics\n감성 점수와 리텐션 상관관계]
-    A --> C[backlog-prioritization\n우선순위 재정렬]
-    A --> D[competitor-analysis\n경쟁사 리뷰 감성 비교]
-
-    style A fill:#d4edda
-```
+![Diagram 8](../assets/diagrams/categories__pm-market-research__diagram_8.svg)
 
 - **[cohort-analysis (Data Analytics)]**: 감성 점수와 리텐션의 상관관계를 분석한다
 - **[competitor-analysis]**: 경쟁자 리뷰의 감성 분석으로 비교 우위를 파악한다

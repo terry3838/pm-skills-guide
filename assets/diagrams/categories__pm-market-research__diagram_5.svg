@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 713.846 232.5" width="713.846" height="232.5" style="--bg:#ffffff;--fg:#1f2328;--line:#d1d9e0;--accent:#0969da;--muted:#59636e">
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;display=swap');
+  text { font-family: 'Inter', system-ui, sans-serif; }
+  svg {
+    /* Derived from --bg and --fg (overridable via --line, --accent, etc.) */
+    --_text:          var(--fg);
+    --_text-sec:      var(--muted, color-mix(in srgb, var(--fg) 60%, var(--bg)));
+    --_text-muted:    var(--muted, color-mix(in srgb, var(--fg) 40%, var(--bg)));
+    --_text-faint:    color-mix(in srgb, var(--fg) 25%, var(--bg));
+    --_line:          var(--line, color-mix(in srgb, var(--fg) 50%, var(--bg)));
+    --_arrow:         var(--accent, color-mix(in srgb, var(--fg) 85%, var(--bg)));
+    --_node-fill:     var(--surface, color-mix(in srgb, var(--fg) 3%, var(--bg)));
+    --_node-stroke:   var(--border, color-mix(in srgb, var(--fg) 20%, var(--bg)));
+    --_group-fill:    var(--bg);
+    --_group-hdr:     color-mix(in srgb, var(--fg) 5%, var(--bg));
+    --_inner-stroke:  color-mix(in srgb, var(--fg) 12%, var(--bg));
+    --_key-badge:     color-mix(in srgb, var(--fg) 10%, var(--bg));
+  }
+</style>
+<defs>
+  <marker id="arrowhead" markerWidth="8" markerHeight="5" refX="7" refY="2.5" orient="auto">
+    <polygon points="0 0, 8 2.5, 0 5" fill="var(--_arrow)" stroke="var(--_arrow)" stroke-width="0.75" stroke-linejoin="round" />
+  </marker>
+  <marker id="arrowhead-start" markerWidth="8" markerHeight="5" refX="1" refY="2.5" orient="auto-start-reverse">
+    <polygon points="8 0, 0 2.5, 8 5" fill="var(--_arrow)" stroke="var(--_arrow)" stroke-width="0.75" stroke-linejoin="round" />
+  </marker>
+</defs>
+<polyline class="edge" data-from="A" data-to="B" data-style="solid" data-arrow-start="false" data-arrow-end="true" points="245.71099999999998,120.47500000000001 269.711,120.47500000000001 269.711,75.35 293.711,75.35" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="A" data-to="C" data-style="solid" data-arrow-start="false" data-arrow-end="true" points="245.71099999999998,120.47500000000001 269.711,120.47500000000001 269.711,165.6 293.711,165.6" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="B" data-to="D" data-style="solid" data-arrow-start="false" data-arrow-end="true" points="460.89,75.35 508.89,75.35" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<g class="node" data-id="A" data-label="customer-journey-map 완료" data-shape="rectangle">
+  <rect x="40" y="102.025" width="205.71099999999998" height="36.900000000000006" rx="0" ry="0" fill="#d4edda" stroke="var(--_node-stroke)" stroke-width="0.75" />
+  <text x="142.8555" y="120.47500000000001" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)" dy="4.55">customer-journey-map 완료</text>
+</g>
+<g class="node" data-id="B" data-label="sql-queries
+Data Analytics
+각 단계 전환율 측정" data-shape="rectangle">
+  <rect x="293.711" y="40" width="167.17899999999997" height="70.7" rx="0" ry="0" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
+  <text x="377.3005" y="75.35" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)"><tspan x="377.3005" dy="-12.350000000000001">sql-queries</tspan><tspan x="377.3005" dy="16.900000000000002">Data Analytics</tspan><tspan x="377.3005" dy="16.900000000000002">각 단계 전환율 측정</tspan></text>
+</g>
+<g class="node" data-id="C" data-label="north-star-metric
+Marketing &amp; Growth" data-shape="rectangle">
+  <rect x="293.711" y="138.7" width="155.323" height="53.800000000000004" rx="0" ry="0" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
+  <text x="371.3725" y="165.6" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)"><tspan x="371.3725" dy="-3.9000000000000012">north-star-metric</tspan><tspan x="371.3725" dy="16.900000000000002">Marketing &amp; Growth</tspan></text>
+</g>
+<g class="node" data-id="D" data-label="cohort-analysis
+단계별 리텐션 분석" data-shape="rectangle">
+  <rect x="508.89" y="48.45" width="164.95600000000002" height="53.800000000000004" rx="0" ry="0" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
+  <text x="591.3679999999999" y="75.35000000000001" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)"><tspan x="591.3679999999999" dy="-3.9000000000000012">cohort-analysis</tspan><tspan x="591.3679999999999" dy="16.900000000000002">단계별 리텐션 분석</tspan></text>
+</g>
+</svg>

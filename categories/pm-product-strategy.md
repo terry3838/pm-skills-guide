@@ -40,10 +40,7 @@
 
 ### 1단계: 전략의 뼈대 세우기 (필수, 순서대로)
 
-```mermaid
-flowchart LR
-    A[Product Strategy Canvas] --> B[Product Vision] --> C[Value Proposition]
-```
+![Diagram 1](../assets/diagrams/categories__pm-product-strategy__diagram_1.svg)
 
 1. **Product Strategy Canvas** -- 9개 영역을 한 번에 훑으며 전체 전략의 초안을 잡는다
 2. **Product Vision** -- 캔버스의 비전 섹션을 더 깊이 다듬어 팀과 이해관계자를 정렬한다
@@ -51,13 +48,7 @@ flowchart LR
 
 ### 2단계: 비즈니스 모델 구체화 (필요에 따라 선택)
 
-```mermaid
-flowchart TD
-    A[Startup Canvas] --> D[Monetization Strategy]
-    B[Lean Canvas] --> D
-    C[Business Model Canvas] --> D
-    D --> E[Pricing Strategy]
-```
+![Diagram 2](../assets/diagrams/categories__pm-product-strategy__diagram_2.svg)
 
 4. **캔버스 3종 중 택 1**:
    - 신규 제품이면 **Startup Canvas** (전략 + 비즈니스 모델 통합, 가장 추천)
@@ -68,12 +59,7 @@ flowchart TD
 
 ### 3단계: 외부 환경 분석 (심화, 필요 시)
 
-```mermaid
-flowchart TD
-    A[SWOT Analysis] --> B[PESTLE Analysis]
-    A --> C[Porter's Five Forces]
-    A --> D[Ansoff Matrix]
-```
+![Diagram 3](../assets/diagrams/categories__pm-product-strategy__diagram_3.svg)
 
 7. **SWOT Analysis** -- 내부 강점/약점과 외부 기회/위협을 종합한다 (비교적 직관적이므로 먼저)
 8. **PESTLE Analysis** -- 거시 환경 요인을 체계적으로 분석한다

@@ -22,13 +22,7 @@
 
 Marketing & Growth 스킬은 "핵심 정의 -> 메시지 개발 -> 실행 아이디어"의 순서로 실행한다.
 
-```mermaid
-flowchart LR
-    A[North Star 메트릭] --> B[가치 제안 문구]
-    B --> C[포지셔닝 아이디어]
-    C --> D[마케팅 아이디어]
-    C --> E[제품 이름]
-```
+![Diagram 1](../assets/diagrams/categories__pm-marketing-growth__diagram_1.svg)
 
 1. **North Star 메트릭** (north-star-metric) -- "우리가 측정해야 할 가장 중요한 숫자는 무엇인가"를 정의한다. 모든 마케팅 활동의 성과 기준이 된다.
 2. **가치 제안 문구** (value-prop-statements) -- 기존 가치 제안을 다양한 맥락(마케팅, 영업, 온보딩)의 문구로 전환한다.

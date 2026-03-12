@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1219.334 133.8" width="1219.334" height="133.8" style="--bg:#ffffff;--fg:#1f2328;--line:#d1d9e0;--accent:#0969da;--muted:#59636e">
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;display=swap');
+  text { font-family: 'Inter', system-ui, sans-serif; }
+  svg {
+    /* Derived from --bg and --fg (overridable via --line, --accent, etc.) */
+    --_text:          var(--fg);
+    --_text-sec:      var(--muted, color-mix(in srgb, var(--fg) 60%, var(--bg)));
+    --_text-muted:    var(--muted, color-mix(in srgb, var(--fg) 40%, var(--bg)));
+    --_text-faint:    color-mix(in srgb, var(--fg) 25%, var(--bg));
+    --_line:          var(--line, color-mix(in srgb, var(--fg) 50%, var(--bg)));
+    --_arrow:         var(--accent, color-mix(in srgb, var(--fg) 85%, var(--bg)));
+    --_node-fill:     var(--surface, color-mix(in srgb, var(--fg) 3%, var(--bg)));
+    --_node-stroke:   var(--border, color-mix(in srgb, var(--fg) 20%, var(--bg)));
+    --_group-fill:    var(--bg);
+    --_group-hdr:     color-mix(in srgb, var(--fg) 5%, var(--bg));
+    --_inner-stroke:  color-mix(in srgb, var(--fg) 12%, var(--bg));
+    --_key-badge:     color-mix(in srgb, var(--fg) 10%, var(--bg));
+  }
+</style>
+<defs>
+  <marker id="arrowhead" markerWidth="8" markerHeight="5" refX="7" refY="2.5" orient="auto">
+    <polygon points="0 0, 8 2.5, 0 5" fill="var(--_arrow)" stroke="var(--_arrow)" stroke-width="0.75" stroke-linejoin="round" />
+  </marker>
+  <marker id="arrowhead-start" markerWidth="8" markerHeight="5" refX="1" refY="2.5" orient="auto-start-reverse">
+    <polygon points="8 0, 0 2.5, 8 5" fill="var(--_arrow)" stroke="var(--_arrow)" stroke-width="0.75" stroke-linejoin="round" />
+  </marker>
+</defs>
+<polyline class="edge" data-from="A1" data-to="A2" data-style="solid" data-arrow-start="false" data-arrow-end="true" points="175.316,66.9 223.316,66.9" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="A2" data-to="A3" data-style="solid" data-arrow-start="false" data-arrow-end="true" points="374.93399999999997,66.9 422.93399999999997,66.9" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="A3" data-to="A4" data-style="solid" data-arrow-start="false" data-arrow-end="true" points="575.293,66.9 623.293,66.9" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="A4" data-to="A5" data-style="solid" data-arrow-start="false" data-arrow-end="true" points="755.645,66.9 803.645,66.9" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="A5" data-to="A6" data-style="solid" data-arrow-start="false" data-arrow-end="true" points="983.4209999999999,66.9 1031.421,66.9" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<g class="node" data-id="A1" data-label="1️⃣ growth-loops
+성장 루프 설계" data-shape="rectangle">
+  <rect x="40" y="40" width="135.316" height="53.800000000000004" rx="0" ry="0" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
+  <text x="107.658" y="66.9" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)"><tspan x="107.658" dy="-3.9000000000000012">1️⃣ growth-loops</tspan><tspan x="107.658" dy="16.900000000000002">성장 루프 설계</tspan></text>
+</g>
+<g class="node" data-id="A2" data-label="2️⃣ cohort-analysis
+코호트 분석" data-shape="rectangle">
+  <rect x="223.316" y="40" width="151.618" height="53.800000000000004" rx="0" ry="0" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
+  <text x="299.125" y="66.9" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)"><tspan x="299.125" dy="-3.9000000000000012">2️⃣ cohort-analysis</tspan><tspan x="299.125" dy="16.900000000000002">코호트 분석</tspan></text>
+</g>
+<g class="node" data-id="A3" data-label="3️⃣ ab-test-analysis
+A/B 테스트 분석" data-shape="rectangle">
+  <rect x="422.93399999999997" y="40" width="152.359" height="53.800000000000004" rx="0" ry="0" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
+  <text x="499.1135" y="66.9" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)"><tspan x="499.1135" dy="-3.9000000000000012">3️⃣ ab-test-analysis</tspan><tspan x="499.1135" dy="16.900000000000002">A/B 테스트 분석</tspan></text>
+</g>
+<g class="node" data-id="A4" data-label="4️⃣ lean-canvas
+린 캔버스" data-shape="rectangle">
+  <rect x="623.293" y="40" width="132.35199999999998" height="53.800000000000004" rx="0" ry="0" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
+  <text x="689.469" y="66.9" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)"><tspan x="689.469" dy="-3.9000000000000012">4️⃣ lean-canvas</tspan><tspan x="689.469" dy="16.900000000000002">린 캔버스</tspan></text>
+</g>
+<g class="node" data-id="A5" data-label="5️⃣ business-model
+비즈니스 모델 캔버스" data-shape="rectangle">
+  <rect x="803.645" y="40" width="179.77599999999998" height="53.800000000000004" rx="0" ry="0" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
+  <text x="893.533" y="66.9" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)"><tspan x="893.533" dy="-3.9000000000000012">5️⃣ business-model</tspan><tspan x="893.533" dy="16.900000000000002">비즈니스 모델 캔버스</tspan></text>
+</g>
+<g class="node" data-id="A6" data-label="6️⃣ ansoff-matrix
+안소프 매트릭스" data-shape="rectangle">
+  <rect x="1031.421" y="40" width="147.913" height="53.800000000000004" rx="0" ry="0" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
+  <text x="1105.3775" y="66.9" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)"><tspan x="1105.3775" dy="-3.9000000000000012">6️⃣ ansoff-matrix</tspan><tspan x="1105.3775" dy="16.900000000000002">안소프 매트릭스</tspan></text>
+</g>
+</svg>

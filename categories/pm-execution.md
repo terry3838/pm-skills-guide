@@ -453,13 +453,7 @@ Beachhead: 1인 PO가 AI 에이전트 팀을 운영하는 스타트업
 - 측정: 팀당 평균 멤버 3명 이상
 
 ### 의존성 맵
-```mermaid
-flowchart LR
-    A["#168 Worker daemon"] --> B["#172 AI 대시보드"]
-    A --> C["#175 온보딩 개선"]
-    D["#161 리팩토링"] --> C
-    B --> E["#185 팀 초대"]
-```
+![Diagram 1](../assets/diagrams/categories__pm-execution__diagram_1.svg)
 ```
 
 #### 다음 단계
@@ -1063,20 +1057,7 @@ Waitlist: 월 1회 뉴스레터 — 너무 뜸함 (기대 관리 필요)
 
 ### Power x Interest 그리드
 
-```mermaid
-flowchart LR
-    subgraph 긴밀관리["긴밀 관리 (High Power + High Interest)"]
-        A["PO (terry)"]
-        B["베타 테스터 5명"]
-    end
-    subgraph 만족유지["만족 유지 (High Power + Low Interest)"]
-        C["시드 투자자"]
-    end
-    subgraph 정보제공["정보 제공 (Low Power + High Interest)"]
-        D["Waitlist 47명"]
-        E["파트너 A사"]
-    end
-```
+![Diagram 2](../assets/diagrams/categories__pm-execution__diagram_2.svg)
 
 ### 커뮤니케이션 계획
 
@@ -2124,12 +2105,7 @@ Beachhead 세그먼트의 문제 우선순위는 Opportunity Score도 적용
 - "높은 중요도 + 낮은 현재 만족도" = Opportunity Score 높음
 - #168은 ICE가 낮지만 **전략적 필수** 항목으로 별도 분류
 
-```mermaid
-flowchart LR
-    A["Opportunity Score\n(고객 문제 우선순위)"] --> B["ICE Score\n(구현 아이디어 정렬)"]
-    B --> C["RICE Score\n(상위 10개 정밀 분석)"]
-    C --> D["Sprint Backlog\n확정"]
-```
+![Diagram 3](../assets/diagrams/categories__pm-execution__diagram_3.svg)
 ```
 
 #### 다음 단계
