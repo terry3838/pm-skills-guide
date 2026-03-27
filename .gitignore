@@ -3,6 +3,10 @@
 .env.local
 node_modules/
 .omc/
+.omx/logs/
+.omx/metrics.json
+.omx/state/
+.omx/tmux-hook.json
 __pycache__/
 *.pyc
 .vscode/
