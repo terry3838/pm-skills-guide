@@ -11,6 +11,17 @@
 
 ![GitHub stars](https://img.shields.io/github/stars/phuryn/pm-skills) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow?style=flat-square)](https://github.com/phuryn/pm-skills/blob/main/LICENSE) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen?style=flat-square)](https://github.com/phuryn/pm-skills/blob/main/CONTRIBUTING.md)
 
+## recent upstream commits
+
+- `36ccefd Merge pull request #6 from fahrim/feature/opencode-integration`
+- `1e5c349 docs: add OpenCode to the Other AI assistants table`
+- `4df15e6 Hide Python from language detection`
+- `949bd41 Update README.md`
+- `7144952 Fix UnicodeEncodeError on Windows in validate_plugins.py`
+- `9f9ee32 Add badges to README for project visibility`
+- `f86273c Merge branch 'main' of https://github.com/phuryn/pm-skills`
+- `c5d4b46 How to contribute`
+
 ## top-level structure
 
 - `.claude-plugin/`

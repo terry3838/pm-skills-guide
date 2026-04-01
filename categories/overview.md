@@ -13,6 +13,15 @@
 - impact labels: 일반 변경
 - 판단: 이번 싸이클에서는 origin 변경이 없어 guide 본문은 유지했고, 동기화 기준점만 재확인했습니다.
 
+## 최근 upstream 커밋
+
+- `36ccefd Merge pull request #6 from fahrim/feature/opencode-integration`
+- `1e5c349 docs: add OpenCode to the Other AI assistants table`
+- `4df15e6 Hide Python from language detection`
+- `949bd41 Update README.md`
+- `7144952 Fix UnicodeEncodeError on Windows in validate_plugins.py`
+- `9f9ee32 Add badges to README for project visibility`
+
 ## 확인한 원본 구조
 
 - `.claude-plugin/`
