@@ -1,7 +1,10 @@
 # Upstream Snapshot — pm-skills
 
 - source repo: `https://github.com/phuryn/pm-skills.git`
-- synced commit: `36ccefdc6c2e00d7c0c12cb0a52bf93e8ec50da4`
+- previous synced commit: `36ccefdc6c2e00d7c0c12cb0a52bf93e8ec50da4`
+- current synced commit: `36ccefdc6c2e00d7c0c12cb0a52bf93e8ec50da4`
+- sync mode: `no-change`
+- impact labels: 일반 변경
 - guide repo: `pm-skills-guide`
 
 ## 원본 한줄 요약
@@ -24,6 +27,10 @@
 - `pm-toolkit/`
 - `README.md`
 - `validate_plugins.py`
+
+## changed files
+
+- 변경 파일 없음
 
 ## README excerpt
 
@@ -107,4 +114,45 @@ claude plugin install pm-execution@pm-skills
 ### Other AI assistants (skills only)
 
 The `skills/*/SKILL.md` files follow the universal skill format and work with any tool that reads it. Commands (`/slash-commands`) are Claude-specific.
+
+| Tool | How to use | What works |
+|------|-----------|------------|
+| **Gemini CLI** | Copy skill folders to `.gemini/skills/` | Skills only |
+| **OpenCode** | Copy skill folders to `.opencode/skills/` | Skills only |
+| **Cursor** | Copy skill folders to `.cursor/skills/` | Skills only |
+| **Codex CLI** | Copy skill folders to `.codex/skills/` | Skills only |
+| **Kiro** | Copy skill folders to `.kiro/skills/` | Skills only |
+
+```bash
+# Example: copy all skills for OpenCode (project-level)
+for plugin in pm-*/; do
+  mkdir -p .opencode/skills/
+  cp -r "$plugin/skills/"* .opencode/skills/ 2>/dev/null
+done
+
+# Example: copy all skills for Gemini CLI (global)
+for plugin in pm-*/; do
+  cp -r "$plugin/skills/"* ~/.gemini/skills/ 2>/dev/null
+done
+```
+
+---
+
+## Available Plugins
+
+<details>
+<summary><strong>1. pm-product-discovery</strong> — Ideation, experiments, assumption testing, OSTs, interviews (13 skills, 5 commands)</summary>
+
+**Skills (13):**
+
+- `brainstorm-ideas-existing` — Multi-perspective ideation for existing products (PM, Designer, Engineer)
+- `brainstorm-ideas-new` — Ideation for new products in initial discovery
+- `brainstorm-experiments-existing` — Design experiments to test assumptions for existing products
+- `brainstorm-experiments-new` — Design lean startup pretotypes for new products (Alberto Savoia)
+- `identify-assumptions-existing` — Identify risky assumptions across Value, Usability, Viability, and Feasibility
+- `identify-assumptions-new` — Identify risky assumptions across 8 risk categories including Go-to-Market, Strategy, and Team
+- `prioritize-assumptions` — Prioritize assumptions using an Impact × Risk matrix with experiment suggestions
+- `prioritize-features` — Prioritize a feature backlog based on impact, effort, risk, and strategic alignment
+- `analyze-feature-requests` — Analyze and categorize customer feature requests by theme and strategic fit
+- `opportunity-solution-tree` — Build an Opportunity Solution Tree (Teresa Torres) — outcome → opportunities → solutions → experiments
 ```

@@ -192,3 +192,22 @@ pm-skills-guide/
 ---
 
 > 이 가이드에 대한 질문이나 개선 제안은 GitHub Issues로 남겨주세요.
+
+<!-- GUIDE_SYNC:START -->
+## 자동 동기화 상태
+
+- origin repo: `pm-skills`
+- latest source commit: `36ccefdc6c2e`
+- sync mode: `no-change`
+- 영향 분류: 일반 변경
+
+### 이번 반영 포인트
+
+이번 싸이클에서는 origin 변경이 없어 guide 본문은 유지했고, 동기화 기준점만 재확인했습니다.
+
+### 변경 파일 샘플
+
+- 이번 싸이클에서는 신규 변경 파일이 없습니다.
+
+> 이 블록은 guide sync가 자동 갱신합니다.
+<!-- GUIDE_SYNC:END -->
