@@ -445,7 +445,7 @@ Clerk 인증은 자체 쿠키를 사용합니다.
 - 정정권: 프로필 편집 기능 구현됨.
 - 이동권: 미구현. CSV 내보내기 기능 개발 필요.
 
-방침에는 이동권 요청 시 이메일(privacy@sprintx.app)로 연락하면
+방침에는 이동권 요청 시 이메일(contact@domain.example)로 연락하면
 30일 내 데이터 파일을 제공한다고 명시해주세요.
 ```
 **💡 팁:** 기술적으로 구현이 안 된 권리도 방침에 명시하되, 이메일 요청 대안을 제시할 수 있다. 단, 명시한 대로 실제로 이행해야 한다.
@@ -488,9 +488,9 @@ Clerk 인증은 자체 쿠키를 사용합니다.
 
 ### 핵심 사용자 권리
 - 접근: 대시보드에서 직접 확인
-- 삭제: 설정 > 계정 삭제 또는 privacy@sprintx.app
+- 삭제: 설정 > 계정 삭제 또는 contact@domain.example
 - 정정: 프로필 편집
-- 이동: privacy@sprintx.app 요청 시 30일 내 CSV 제공
+- 이동: contact@domain.example 요청 시 30일 내 CSV 제공
 
 ---
 
@@ -550,7 +550,7 @@ SprintX는 다음과 같은 정보를 수집합니다:
 ```
 /pm-toolkit:review-resume
 --resume "
-김철수 | kim.cheolsu@gmail.com | github.com/cheolsu
+예시 사용자 | example.user@sample.com | github.com/example-user
 SprintX Inc. | Product Owner | 2024.01 - 현재
 - AI 에이전트 기반 스프린트 관리 SaaS 개발 총괄
 - 이해관계자 관리 및 백로그 우선순위 결정

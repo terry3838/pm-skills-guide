@@ -116,7 +116,7 @@ analytics_events도 JOIN이 필요합니다.
 **✅ 좋은 답변 예시:**
 ```
 오늘 기준 최근 30일 (NOW() - INTERVAL '30 days').
-테스트 계정 제외: email LIKE '%@sprintx.app'이나 '%@test.com'은 제외.
+테스트 계정 제외: email LIKE '%@example-company.com' 또는 '%@example.net'은 제외.
 삭제된 계정(deleted_at IS NOT NULL)도 제외해주세요.
 ```
 **💡 팁:** 필터 조건을 정확히 말할수록 쿼리의 정확도가 올라간다. 특히 테스트 계정 제외는 실무에서 자주 놓치는 부분이다.
@@ -168,8 +168,8 @@ LEFT JOIN (
   SELECT DISTINCT user_id FROM projects
 ) p ON p.user_id = u.id
 WHERE u.created_at >= NOW() - INTERVAL '30 days'
-  AND u.email NOT LIKE '%@sprintx.app'
-  AND u.email NOT LIKE '%@test.com'
+  AND u.email NOT LIKE '%@example-company.com'
+  AND u.email NOT LIKE '%@example.net'
   AND u.deleted_at IS NULL;
 
 -- 결과 예시:
@@ -187,7 +187,7 @@ LEFT JOIN projects p ON p.user_id = u.id
 LEFT JOIN analytics_events ae ON ae.user_id = u.id
 WHERE u.created_at >= NOW() - INTERVAL '30 days'
   AND p.id IS NULL
-  AND u.email NOT LIKE '%@sprintx.app'
+  AND u.email NOT LIKE '%@example-company.com'
   AND u.deleted_at IS NULL
 GROUP BY u.id, u.email, u.created_at
 ORDER BY u.created_at DESC;

@@ -41,9 +41,9 @@
   <rect x="40" y="354.70000000000005" width="146.56799999999998" height="28" rx="0" ry="0" fill="var(--_group-hdr)" stroke="var(--_node-stroke)" stroke-width="1" />
   <text x="52" y="368.70000000000005" font-size="12" font-weight="600" fill="var(--_text-sec)" dy="4.199999999999999">정보제공[&quot;정보 제공 (Low Power + High Interest)&quot;]</text>
 </g>
-<g class="node" data-id="A" data-label="PO (terry)" data-shape="rectangle">
+<g class="node" data-id="A" data-label="PO (제품 소유자)" data-shape="rectangle">
   <rect x="66.92975" y="84" width="99.007" height="36.900000000000006" rx="0" ry="0" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
-  <text x="116.43325" y="102.45" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)" dy="4.55">PO (terry)</text>
+  <text x="116.43325" y="102.45" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)" dy="4.55">PO (제품 소유자)</text>
 </g>
 <g class="node" data-id="B" data-label="베타 테스터 5명" data-shape="rectangle">
   <rect x="66.92975" y="148.9" width="142.726" height="36.900000000000006" rx="0" ry="0" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
